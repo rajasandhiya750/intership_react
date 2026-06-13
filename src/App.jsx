@@ -84,12 +84,13 @@ function App() {
       >
         <div
           style={{
-            background: "white",
+            background: "#FFA500",
             padding: "20px",
             borderRadius: "15px",
             width: "220px",
             textAlign: "center",
             boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
+            color: "white",
           }}
         >
           <h2>{jobsData.length}</h2>
@@ -98,12 +99,13 @@ function App() {
 
         <div
           style={{
-            background: "white",
+            background: "#2196F3",
             padding: "20px",
             borderRadius: "15px",
             width: "220px",
             textAlign: "center",
             boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
+            color: "white",
           }}
         >
           <h2>{bookmarks.length}</h2>
@@ -215,7 +217,7 @@ function App() {
       {/* Saved Jobs */}
       <div
         style={{
-          background: "white",
+          background: "light gray",
           padding: "20px",
           borderRadius: "15px",
           marginTop: "30px",
@@ -231,7 +233,7 @@ function App() {
             <div
               key={job.id}
               style={{
-                borderBottom: "1px solid #ddd",
+                borderBottom: "1px solid #ccc0c0",
                 padding: "10px 0",
               }}
             >
